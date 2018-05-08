@@ -24,5 +24,13 @@ public class Printer {
         pl(0, "Welcome to Gradebook", 0);
         pl(0, "********************", 1);
     }
+
+    public static void printMenu() {
+        pl(1, "1. View Courses", 0);
+        pl(0, "", 0);
+        pl(0, "2. Edit Courses", 0);
+        pl(0, "3. Display Course Grades", 0);
+        pl(0, "4. Exit", 1);
+    }
 }
 
